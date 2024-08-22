@@ -1,11 +1,9 @@
 # copyright 2020-21 @Mohamed Rizad
-# Telegram @riz4d
-# Instagram @riz.4d
 import telebot
 import requests
 from telebot.types import InlineKeyboardButton
 
-# Fillout Here The BotToken it gets from botfather further queries @riz4d 0n telegram
+# Fillout Here The BotToken it gets from botfather
 bot = telebot.TeleBot('7516430693:AAFVqfO60Ixt1VK9osRruw-DOIXRJH_qkpQ')
 
 while True:
@@ -22,7 +20,7 @@ while True:
             bot.send_message(message.chat.id,
 '''
 Hey.,
-Welcome to MysteryMail Bot
+Welcome to Unlimited TempMail Bot
 Usage:
 ➪ To Generate emails by clicking on the button "Generate email"
 ➪ To refresh your inbox click on the button "Refresh inbox"
@@ -48,15 +46,15 @@ Dev : @riz4d
             elif message.text.lower() == 'about':
                 bot.send_message(message.chat.id,
 '''
-What is Mystery Mail?
+What is Unlimited TempMail?
 
 - it is a free email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail
 
-How Mystery Mail Become Safer You?
+How Unlimited TempMail Become Safer You?
 
 - Using the temporary mail allows you to completely protect your real mailbox against the loss of personal information. Your temporary e-mail address is completely anonymous. Your details: information about your person and users with whom you communicate, IP-address, e-mail address are protected and completely confidential.
 
-➪ Bot Name : MysteryMail
+➪ Bot Name : Unlimited TempMail
 ➪ Author : @riz4d
 ➪ Language : Python''')
             elif message.text.lower()[14] == "[":
@@ -108,4 +106,3 @@ How Mystery Mail Become Safer You?
     except BaseException:
         pass
         
-# Stay tuned for more : Instagram @riz.4d
